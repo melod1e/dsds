@@ -15,7 +15,7 @@ bool validinvalid(const string& phone)
     {
         if (!isdigit(ch)) 
         {
-            return 1;
+            return 0;
         }
     }
 
